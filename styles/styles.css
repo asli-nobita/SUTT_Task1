@@ -1,0 +1,243 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 700;
+    display: inline-block;
+}
+button{
+    border-radius: 2px;
+}
+p{
+    line-height: 1.75rem;
+    font-size: 1.125rem;
+}
+header{
+    background-color: #02042b;
+    height: auto;
+    padding: 20px 125px 100px 125px;
+}
+header nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0;
+    top: 10px;
+    padding: 0 75px 10px 75px;
+}
+#nav-options{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+#nav-options li{
+    color: white;
+}
+#buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    margin-right: 0;
+    padding-right: 0;
+    margin-left: 50px;
+}
+.login{
+    border: 1px solid #2b84ea;
+    height: auto;
+    width: auto;
+    display: inline-block;
+    background-color: transparent;
+    font-weight: 700;
+    padding: 5px;
+}
+.login a{
+    color: white;
+    padding: 12px 20px;
+    line-height: 1.2;
+    white-space: nowrap;
+}
+.signup-white{
+    height: auto;
+    width: auto;
+    display: inline-block;
+    background-color: white;
+    font-weight: 700;
+    padding: 5px;
+}
+.signup-white a{
+    color: #2b84ea;
+}
+.hero{
+    text-align: left;
+    margin: 20px 150px 100px 75px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 4rem;
+}
+.hero img{
+    transform: translateY(2rem);
+    transform: translateX(-8rem);
+}
+.grid-item-img{
+    text-align: right;
+}
+.heading{
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-top: 100px;
+}
+.hero span{
+    background-color: hsla(158, 52.7%, 59.4%, 1);
+    width: 24px;
+    height: 4px;
+}
+.hero p{
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    opacity: 0.7;
+}
+.signup-blue{
+    background-color: #2b84ea;
+    padding: 10px;
+}
+.signup-blue a{
+    color: white;
+}
+.header{
+    visibility: hidden;
+}
+.sticky{
+    position: sticky;
+    top: 0;
+    visibility: visible;
+    transition: transform 150ms ease-in-out 0s;
+    transform: translateY(0px);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    z-index: 100;
+    background-color: white;
+    color: #2b84ea;
+    width: 100%;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.sticky div{
+    margin-left: auto;
+    margin-right: 0;
+}
+section{
+    margin: 50px 200 20px 200px;
+    text-align: center;
+    padding: 0;
+}
+.payment-gateway{
+    border: 1px solid grey;
+    border-radius: 4px;
+    padding: 20px 50px;
+    text-align: left;
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+#heading{
+    margin: 50px;
+    font-weight: 800;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.box-heading{
+    font-size: 1.75rem;
+}
+.grid-item img{
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: auto;
+    max-width: 600px;
+}
+.checklist{
+    margin: 40px 0 40px;
+}
+.checklist li{
+    margin-bottom: 10px;
+}
+.checklist li:before{
+    content: '✓';
+}
+.signup-blue{
+    border-radius: 5px;
+    box-shadow: 2px 4px 9px 1px hsla(0, 0%, 0%, 0.05);
+    margin-right: 25px;
+}
+.know-more{
+    color: #2b84ea;
+    display: inline-block;
+}
+.grid-container2{
+    display: grid;
+    margin-top: 0;
+    padding: 0;
+    margin-left: 180px;
+    margin-right: 180px;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.grid-item-box{
+    margin: 20px;
+    border: solid 0.5px grey;
+    border-radius: 5px;
+    padding: 20px;
+}
+.grid-item-box h1{
+    font-weight: 800;
+}
+.box-link{
+    display: block;
+    color: inherit;
+    cursor: pointer;
+}
+#gradient{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 200px;
+    gap: 20px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(180deg, rgba(74, 144, 245, 0.21) -34.7%, rgba(125, 186, 244, 0.063) 100%, rgba(125, 186, 244, 0.1295) 100%);
+}
+
+/* business-banking  */
+.business-banking{
+    background-color: #181c2e;
+    color: white;
+    margin: 50px 0;
+    padding: 50px 200px;
+}
+.business-banking h2{
+    font-weight: 800;
+    color: white;
+}
+
+.signup-knowmore{
+    margin-bottom: 20px;
+}
